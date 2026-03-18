@@ -3,29 +3,75 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: 'Android Application Development',
-      description: 'Developed Android applications using Java with focus on user experience and performance optimization.',
-      technologies: ['Java', 'Android Studio', 'XML', 'SQLite'],
-      features: ['User Authentication', 'Data Management', 'Responsive UI', 'API Integration'],
+      title: 'Telbase Business Solutions – BPO Marketing Website',
+      description: 'A responsive marketing website developed for a Business Process Outsourcing (BPO) company to showcase its services, company strengths, team members, and customer testimonials.',
+      technologies: ['HTML5', 'CSS3', 'Bootstrap 4', 'jQuery', 'OwlCarousel2', 'Font Awesome', 'Google Fonts', 'Google Maps API'],
+      features: [
+        'Responsive Bootstrap-based design',
+        'Service showcase sections',
+        'Team member profiles',
+        'Customer testimonials carousel',
+        'Contact form integration',
+        'Social media links',
+        'Subscription functionality',
+        'Google Maps location feature'
+      ],
       status: 'Completed',
       github: '#',
       demo: '#'
     },
     {
-      title: 'Web Application with PHP',
-      description: 'Designed and implemented web applications using PHP with database integration for dynamic content management.',
-      technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-      features: ['Database Integration', 'User Management', 'Content Management', 'Security Features'],
+      title: 'Live Doctor – Telehealth Web Platform',
+      description: 'A full-stack telehealth platform that enables patients to learn about services, locate nearby clinics, and initiate video consultations, alongside a secure doctor portal for managing patient records and appointments.',
+      technologies: ['HTML5', 'CSS3', 'JavaScript', 'WebRTC', 'PHP', 'MySQL/MariaDB', 'Font Awesome', 'Google Fonts'],
+      features: [
+        'Responsive public-facing website',
+        'Mobile navigation design',
+        'Clinic locator with Google Maps',
+        'WebRTC video consultations',
+        'Doctor authentication portal',
+        'Patient record management (CRUD)',
+        'Appointment scheduling system',
+        'Backend API design'
+      ],
       status: 'Completed',
       github: '#',
       demo: '#'
     },
     {
-      title: 'Cloud-Based System',
-      description: 'Built and deployed cloud-based systems with scalable architecture and high availability.',
-      technologies: ['Docker', 'Kubernetes', 'Cloud Services', 'API Design'],
-      features: ['Scalability', 'Load Balancing', 'Auto-scaling', 'Monitoring'],
-      status: 'In Progress',
+      title: 'GetHomeSafe – School Pupil Pickup Safety App',
+      description: 'An Android application designed to improve school pickup safety through role-based access control for parents, staff, and administrators.',
+      technologies: ['Android (Java)', 'AndroidX', 'Material Design', 'Firebase Authentication', 'Firebase Firestore'],
+      features: [
+        'Role-based authentication system',
+        'Parent pupil linking functionality',
+        'Driver registration & management',
+        'Staff approval workflows',
+        'Admin record management',
+        'Check-in/check-out tracking',
+        'Real-time status updates',
+        'Firebase backend integration'
+      ],
+      status: 'Completed',
+      github: '#',
+      demo: '#'
+    },
+    {
+      title: 'MEC AI System – Intelligent Resource Allocation Platform',
+      description: 'A containerized Mobile Edge Computing (MEC) simulation platform that uses a Deep Q-Learning (DQN) agent to allocate tasks across edge nodes based on resource availability and SLA requirements.',
+      technologies: ['Python', 'TensorFlow/Keras', 'Flask', 'Dash (Plotly)', 'PostgreSQL', 'SQLAlchemy', 'Docker', 'Prometheus', 'Grafana'],
+      features: [
+        'DQN-based AI agent implementation',
+        'Reinforcement learning algorithms',
+        'MEC node simulators',
+        'Resource monitoring (CPU, memory, bandwidth)',
+        'SLA performance tracking',
+        'Real-time dashboard visualization',
+        'PostgreSQL data persistence',
+        'Docker containerization',
+        'Prometheus metrics collection'
+      ],
+      status: 'Completed',
       github: '#',
       demo: '#'
     }

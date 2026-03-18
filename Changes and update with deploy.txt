@@ -1,0 +1,9 @@
+# Add changes
+git add .
+git commit -m "Update portfolio content"
+
+# Push to GitHub
+git push origin main
+
+# Deploy to GitHub Pages
+npm run deploy

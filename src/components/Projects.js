@@ -17,8 +17,8 @@ const Projects = () => {
         'Google Maps location feature'
       ],
       status: 'Completed',
-      github: 'https://github.com/RickyShadrick/telbase-bpo-website',
-      demo: 'https://telbase-demo.example.com'
+      github: 'https://github.com/RickyShadrick/Telbase/tree/main/PBO-html',
+      demo: '#'
     },
     {
       title: 'Live Doctor – Telehealth Web Platform',

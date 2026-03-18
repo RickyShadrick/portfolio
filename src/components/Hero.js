@@ -19,11 +19,11 @@ const Hero = () => {
         </h1>
         
         <h2 className="text-xl sm:text-2xl md:text-3xl text-blue-100 mb-6">
-          Software Engineering Graduate
+          Software Engineering
         </h2>
         
         <p className="text-lg md:text-xl text-blue-50 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Recent BSc Software Engineering graduate with strong technical, analytical, and communication skills. 
+          BSc Software Engineering holder with strong technical, analytical, and communication skills. 
           Experienced in web, mobile, and cloud-based system development with a passion for problem-solving 
           and continuous learning.
         </p>
